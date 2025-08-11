@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sanjana Uprety | ML Engineer</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <style>
+        body {
+            transition: background 0.4s, color 0.4s;
+            font-family: 'Inter', sans-serif;
+            background-image: linear-gradient(135deg, #f0f4ff 0%, #ffffff 100%), url('https://www.transparenttextures.com/patterns/cubes.png');
+            background-repeat: repeat;
+            background-size: auto, cover;
+            background-blend-mode: overlay;
+        }
+
+        .dark-mode {
+            background: linear-gradient(to bottom right, #0f172a, #1e293b);
+            color: #f1f5f9;
+        }
+
+        .dark-mode section {
+            background-color: rgba(30, 41, 59, 0.8);
+            color: #f1f5f9;
+        }
+
+        section {
+            background-color: rgba(255, 255, 255, 0.95);
+            border-radius: 12px;
+            margin: 1rem auto;
+            padding: 2rem;
+            max-width: 1200px;
+            backdrop-filter: blur(2px);
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+        }
+    </style>
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <style>
+        #particles-js {
+            position: fixed;
+            z-index: -1;
+            width: 100%;
+            height: 100%;
+            top: 0;
+            left: 0;
+        }
+    </style>
+
+</head>
+
+<body class="font-sans">
+    <div id="particles-js"></div>
+
+    <nav class="fixed top-0 w-full bg-white dark-mode:bg-gray-900 shadow z-50">
+        <div class="container mx-auto flex justify-between items-center p-4">
+            <span class="text-xl font-semibold text-indigo-600">Sanjana Uprety</span>
+            <ul class="flex space-x-6">
+                <li><a href="#home" class="hover:underline">Home</a></li>
+                <li><a href="#about" class="hover:underline">About</a></li>
+                <li><a href="#skills" class="hover:underline">Skills</a></li>
+                <li><a href="#projects" class="hover:underline">Projects</a></li>
+                <li><a href="#contact" class="hover:underline">Contact</a></li>
+            </ul>
+            <button onclick="toggleDarkMode()" class="ml-4 px-3 py-1 text-sm border rounded">🌙</button>
+        </div>
+    </nav>
+
+    <section id="home" class="pt-28 pb-16 relative overflow-hidden">
+        <!-- ML Background Image -->
+        <img src="assets/background1.webp" alt="Machine Learning Background"
+            class="absolute inset-0 w-full h-full object-cover opacity-60 z-0 pointer-events-none">
+
+        <div class="relative z-10 flex flex-col md:flex-row items-start gap-4 px-6">
+
+            <!-- Photo Section -->
+            <div class="md:w-1/2 flex justify-center md:justify-end">
+                <img src="assets/sanjana.jpeg" alt="Sanjana Uprety"
+                    class="rounded-full w-56 h-56 object-cover shadow-lg ring-4 ring-indigo-500 transition hover:scale-105 duration-300">
+            </div>
+
+            <!-- Text Section -->
+            <div class="md:w-1/2 text-center md:text-left md:pl-4">
+                <h1 class="text-4xl font-bold mb-3 text-gray-800">Hi, I’m Sanjana</h1>
+                <p class="text-base text-gray-700 mb-4 leading-relaxed">
+                    Final year B.Tech CSE student at Roorkee Institute of Technology,<br>
+                    aspiring <strong>Machine Learning Engineer</strong> passionate about building AI-powered solutions.
+                </p>
+                <div class="space-x-4">
+                    <a href="assets/220240101128_Sanjana_Uprety_CSE_4th_year_2022-2026_final_resume.pdf" target="_blank"
+                        class="bg-indigo-600 text-white px-5 py-2 rounded hover:bg-indigo-700">My Resume</a>
+                    <a href="https://github.com/SanjanaUprety09" target="_blank"
+                        class="text-indigo-600 underline">GitHub</a>
+                    <a href="https://www.linkedin.com/in/sanjana-uprety-b1342424b" target="_blank"
+                        class="text-indigo-600 underline">LinkedIn</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about">
+        <h2 class="text-3xl font-bold mb-4">About Me</h2>
+        <p class="leading-relaxed text-gray-700">
+            I'm Sanjana Uprety, a final-year B.Tech student in Computer Science and Engineering from Roorkee Institute
+            of Technology, with a strong passion for data-driven problem solving and intelligent systems. My core
+            interests lie in Machine Learning, Data Science, and building real-world applications that transform raw
+            data into impactful insights.
+        </p>
+        <p class="leading-relaxed text-gray-700 mt-4">
+            Over the past few semesters, I’ve built and deployed multiple end-to-end machine learning projects — from a
+            <strong>Crop Recommendation System</strong> achieving 98% accuracy to a <strong>Credit Card Fraud Detection
+                model</strong> handling imbalanced datasets using SMOTE and GridSearchCV, delivering 99.97% accuracy.
+            I’m also experienced in deploying interactive ML web apps using <strong>Streamlit</strong>, hosting them on
+            Streamlit Cloud, and maintaining code on GitHub.
+        </p>
+        <p class="leading-relaxed text-gray-700 mt-4">
+            I’m proficient in Python, scikit-learn, pandas, matplotlib, and have hands-on experience with EDA,
+            classification, regression, and model optimization techniques. My internship and academic training have
+            equipped me to work in collaborative environments using tools like Git, Jupyter, and Colab.
+        </p>
+        <p class="leading-relaxed text-gray-700 mt-4">
+            As a fast learner and proactive team player, I enjoy diving deep into datasets, solving challenging
+            problems, and continuously upgrading my skills to stay relevant in the ever-evolving AI landscape. I’m eager
+            to contribute to forward-thinking teams and explore opportunities in data science and machine learning
+            research roles.
+        </p>
+    </section>
+
+
+    <section id="skills">
+        <h2 class="text-3xl font-bold mb-4 text-center">Skills & Tools</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mt-6">
+            <div class="bg-white dark-mode:bg-gray-800 p-4 rounded shadow hover:shadow-lg transition">
+                <h3 class="text-xl font-semibold mb-2 text-indigo-600">Programming</h3>
+                <p class="mb-2">Python, C++, C</p>
+                <p class="text-sm text-gray-600 dark-mode:text-gray-300">Strong in Python for ML and Data Analysis</p>
+            </div>
+            <div class="bg-white dark-mode:bg-gray-800 p-4 rounded shadow hover:shadow-lg transition">
+                <h3 class="text-xl font-semibold mb-2 text-indigo-600">Machine Learning</h3>
+                <p class="mb-2">Supervised & Unsupervised Learning, Model Evaluation</p>
+                <p class="text-sm text-gray-600 dark-mode:text-gray-300">Scikit-learn, Feature Engineering, GridSearchCV
+                </p>
+            </div>
+            <div class="bg-white dark-mode:bg-gray-800 p-4 rounded shadow hover:shadow-lg transition">
+                <h3 class="text-xl font-semibold mb-2 text-indigo-600">Data Visualization</h3>
+                <p class="mb-2">Matplotlib, Seaborn, Plotly</p>
+                <p class="text-sm text-gray-600 dark-mode:text-gray-300">Creating beautiful and informative charts</p>
+            </div>
+            <div class="bg-white dark-mode:bg-gray-800 p-4 rounded shadow hover:shadow-lg transition">
+                <h3 class="text-xl font-semibold mb-2 text-indigo-600">Tools & Platforms</h3>
+                <p class="mb-2">Jupyter Notebook, Google Colab, Git, GitHub, Streamlit</p>
+                <p class="text-sm text-gray-600 dark-mode:text-gray-300">Used in development and deployment of ML apps
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects">
+        <h2 class="text-3xl font-bold mb-8 text-center">Projects</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+
+            <!-- Crop Recommendation App -->
+            <div class="p-6 border rounded-lg bg-white dark-mode:bg-gray-800 shadow hover:shadow-lg transition">
+                <img src="assets/crop.jfif" alt="Crop Recommendation App Screenshot"
+                    class="w-full rounded mb-4 shadow max-h-64 object-cover">
+
+                <h3 class="text-2xl font-semibold mb-2">Crop Recommendation App</h3>
+                <p class="text-gray-700 dark-mode:text-gray-300 mb-2">
+                    Designed and implemented a machine learning-based Crop Recommendation System using a Random Forest
+                    Classifier to suggest the most suitable crop based on real-world soil and environmental conditions
+                    including nitrogen (N), phosphorus (P), potassium (K) content, temperature, humidity, pH, and
+                    rainfall.
+                    The project involved rigorous data preprocessing, feature analysis, and model training, achieving an
+                    impressive <strong>98% accuracy</strong>. Leveraged <strong>pandas</strong> and
+                    <strong>matplotlib</strong> for EDA, and tuned hyperparameters to improve model performance. The
+                    final model was integrated into an intuitive <strong>Streamlit</strong> web app and deployed online
+                    to make it accessible to end users such as farmers and agri-tech enthusiasts.
+                </p>
+
+                <p class="text-sm mb-3 text-gray-600 dark-mode:text-gray-400">Tags: <span
+                        class="bg-indigo-100 text-indigo-700 px-2 py-1 rounded text-xs">Supervised Learning</span> <span
+                        class="bg-green-100 text-green-700 px-2 py-1 rounded text-xs">Streamlit</span></p>
+                <div class="flex flex-wrap gap-2 mb-3">
+                    <span class="bg-gray-200 px-2 py-1 rounded text-xs">Python</span>
+                    <span class="bg-gray-200 px-2 py-1 rounded text-xs">scikit-learn</span>
+                    <span class="bg-gray-200 px-2 py-1 rounded text-xs">Pandas</span>
+                    <span class="bg-gray-200 px-2 py-1 rounded text-xs">Streamlit</span>
+                </div>
+                <a href="https://croprecommendationapp-celtkadcxjhq2kfcv9thkd.streamlit.app/"
+                    class="text-indigo-600 underline dark-mode:text-indigo-400 mr-2" target="_blank">Live Demo</a>
+                <a href="https://github.com/SanjanaUprety09/crop_recommendation_app"
+                    class="text-indigo-600 underline dark-mode:text-indigo-400" target="_blank">Code</a>
+            </div>
+
+            <!-- Customer Churn Prediction -->
+            <div class="p-6 border rounded-lg bg-white dark-mode:bg-gray-800 shadow hover:shadow-lg transition">
+                <img src="assets/churn.webp" alt="Customer Churn Prediction Screenshot"
+                    class="w-full rounded mb-4 shadow max-h-64 object-cover">
+
+                <h3 class="text-2xl font-semibold mb-2">Customer Churn Prediction</h3>
+                <p class="text-gray-700 dark-mode:text-gray-300 mb-2">
+                    Developed a predictive machine learning model to analyze customer behavior and identify potential
+                    churn in a telecom dataset. Employed <strong>AdaBoost with Decision Trees</strong> to enhance
+                    classification performance and effectively capture non-linear relationships in customer data.
+                    Conducted thorough <strong>EDA</strong> to uncover patterns in customer tenure, service plans,
+                    charges, and contract types. The final model achieved an <strong>83% accuracy</strong>, balancing
+                    recall and precision to ensure robust performance.
+                    The entire solution was deployed using <strong>Streamlit</strong>, providing a user-friendly
+                    interface for live churn prediction.
+                </p>
+
+                <p class="text-sm mb-3 text-gray-600 dark-mode:text-gray-400">Tags: <span
+                        class="bg-red-100 text-red-700 px-2 py-1 rounded text-xs">Classification</span> <span
+                        class="bg-green-100 text-green-700 px-2 py-1 rounded text-xs">Streamlit</span></p>
+                <div class="flex flex-wrap gap-2 mb-3">
+                    <span class="bg-gray-200 px-2 py-1 rounded text-xs">Python</span>
+                    <span class="bg-gray-200 px-2 py-1 rounded text-xs">AdaBoost</span>
+                    <span class="bg-gray-200 px-2 py-1 rounded text-xs">DecisionTree</span>
+                    <span class="bg-gray-200 px-2 py-1 rounded text-xs">Streamlit</span>
+                </div>
+                <a href="https://customerchurnapp-100.streamlit.app/"
+                    class="text-indigo-600 underline dark-mode:text-indigo-400 mr-2" target="_blank">Live Demo</a>
+                <a href="https://github.com/SanjanaUprety09/customer_churn_app"
+                    class="text-indigo-600 underline dark-mode:text-indigo-400" target="_blank">Code</a>
+            </div>
+
+            <!-- Credit Card Fraud Detection -->
+            <div class="p-6 border rounded-lg bg-white dark-mode:bg-gray-800 shadow hover:shadow-lg transition">
+                <img src="assets/credit.png" alt="Customer Churn Prediction Screenshot"
+                    class="w-full rounded mb-4 shadow max-h-64 object-cover">
+
+                <h3 class="text-2xl font-semibold mb-2">Credit Card Fraud Detection</h3>
+                <p class="text-gray-700 dark-mode:text-gray-300 mb-2">
+                    Built a fraud detection system using <strong>Random Forest Classifier</strong> on highly imbalanced
+                    credit card transaction data. Leveraged <strong>SMOTE (Synthetic Minority Oversampling
+                        Technique)</strong> to improve model sensitivity to fraud patterns.
+                    Achieved a remarkable <strong>99.97% accuracy</strong> through robust feature engineering and model
+                    tuning. Special focus was given to reducing false negatives to ensure reliable fraud alerts. This
+                    project reflects strong skills in anomaly detection, risk modeling, and data preprocessing.
+                </p>
+
+                </p>
+                <p class="text-sm mb-3 text-gray-600 dark-mode:text-gray-400">Tags: <span
+                        class="bg-yellow-100 text-yellow-700 px-2 py-1 rounded text-xs">Imbalanced Data</span> <span
+                        class="bg-indigo-100 text-indigo-700 px-2 py-1 rounded text-xs">Classification</span></p>
+                <div class="flex flex-wrap gap-2 mb-3">
+                    <span class="bg-gray-200 px-2 py-1 rounded text-xs">Python</span>
+                    <span class="bg-gray-200 px-2 py-1 rounded text-xs">Random Forest</span>
+                    <span class="bg-gray-200 px-2 py-1 rounded text-xs">SMOTE</span>
+                    <span class="bg-gray-200 px-2 py-1 rounded text-xs">sklearn</span>
+                </div>
+                <a href="https://github.com/SanjanaUprety09/CREDIT_CARD_FRAUD_DETECTION_USING_LOGISTIC_REGRESSION/blob/main/Credit%20Card%20Fraud%20Detection%20System.ipynb"
+                    class="text-indigo-600 underline dark-mode:text-indigo-400" target="_blank">Code</a>
+            </div>
+
+            <!-- Heart Disease Prediction -->
+            <div class="p-6 border rounded-lg bg-white dark-mode:bg-gray-800 shadow hover:shadow-lg transition">
+                <img src="assets/heart.webp" alt="Customer Churn Prediction Screenshot"
+                    class="w-full rounded mb-4 shadow max-h-64 object-cover">
+
+                <h3 class="text-2xl font-semibold mb-2">Heart Disease Prediction</h3>
+                <p class="text-gray-700 dark-mode:text-gray-300 mb-2">
+                    Developed a classification model using <strong>Logistic Regression</strong> to predict heart disease
+                    likelihood from health indicators like cholesterol, age, resting blood pressure, and heart rate.
+                    The model achieved <strong>87% accuracy</strong> and was optimized using feature scaling and
+                    correlation filtering.
+                    This project highlights practical application of ML in healthcare, with a focus on interpretability
+                    and clinical decision support.
+                </p>
+
+                </p>
+                <p class="text-sm mb-3 text-gray-600 dark-mode:text-gray-400">Tags: <span
+                        class="bg-pink-100 text-pink-700 px-2 py-1 rounded text-xs">Healthcare</span> <span
+                        class="bg-indigo-100 text-indigo-700 px-2 py-1 rounded text-xs">Binary Classification</span></p>
+                <div class="flex flex-wrap gap-2 mb-3">
+                    <span class="bg-gray-200 px-2 py-1 rounded text-xs">Python</span>
+                    <span class="bg-gray-200 px-2 py-1 rounded text-xs">Logistic Regression</span>
+                    <span class="bg-gray-200 px-2 py-1 rounded text-xs">pandas</span>
+                    <span class="bg-gray-200 px-2 py-1 rounded text-xs">sklearn</span>
+                </div>
+                <a href="https://github.com/SanjanaUprety09/HEART_DISEASE_PREDICTION_USIGN_LOGISTIC_REGRESSION"
+                    class="text-indigo-600 underline dark-mode:text-indigo-400" target="_blank">Code</a>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="contact"
+        class="relative py-20 bg-gradient-to-br from-gray-100 via-white to-gray-200 dark-mode:bg-gray-900">
+        <!-- Subtle background overlay -->
+        <div class="absolute inset-0 bg-[url('https://www.transparenttextures.com/patterns/cubes.png')] opacity-10">
+        </div>
+
+        <div class="relative container mx-auto px-6 max-w-3xl text-center">
+            <h2 class="text-4xl font-extrabold mb-4 text-indigo-700 tracking-wide">Get in Touch</h2>
+            <p class="text-gray-700 dark-mode:text-gray-300 text-lg mb-10 leading-relaxed">
+                I'm actively seeking full-time roles and internships in Machine Learning, Data Science, or AI. If you're
+                a recruiter, hiring manager, or collaborator — feel free to reach out. Let's build something intelligent
+                together!
+            </p>
+
+            <div
+                class="bg-white dark-mode:bg-gray-800 rounded-2xl shadow-xl p-8 space-y-6 text-left transition hover:shadow-2xl border border-gray-200 dark-mode:border-gray-700">
+                <!-- Email 1 -->
+                <div class="flex items-start space-x-4">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-indigo-600 mt-1" fill="none"
+                        viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M16 12H8m0 0v2m0-2v-2m8 2a8 8 0 11-16 0 8 8 0 0116 0z" />
+                    </svg>
+                    <a href="mailto:sanjanauprety86@gmail.com" class="text-indigo-700 text-lg hover:underline">
+                        sanjanauprety86@gmail.com
+                    </a>
+                </div>
+
+                <!-- Email 2 -->
+                <div class="flex items-start space-x-4">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-indigo-600 mt-1" fill="none"
+                        viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M16 12H8m0 0v2m0-2v-2m8 2a8 8 0 11-16 0 8 8 0 0116 0z" />
+                    </svg>
+                    <a href="mailto:sanjanauprety.cse2022@ritroorkee.com"
+                        class="text-indigo-700 text-lg hover:underline">
+                        sanjanauprety.cse2022@ritroorkee.com
+                    </a>
+                </div>
+
+                <!-- Phone -->
+                <div class="flex items-start space-x-4">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-indigo-600 mt-1" fill="none"
+                        viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M3 10l1 2a9 9 0 006 6l2 1 1-2c.6-1.3-.3-2.4-1.3-3.4-1-.9-2-1.8-3.3-1.3l-1 2a8.96 8.96 0 01-3.4-3.4l2-1c.5-1.3-.4-2.4-1.3-3.3C5.4 4.4 4.3 3.5 3 4l-1 2z" />
+                    </svg>
+                    <p class="text-gray-700 dark-mode:text-gray-300 text-lg">
+                        +91 8732033656
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <footer class="py-6 text-center text-sm text-gray-500">
+        &copy; 2025 Sanjana Uprety. All rights reserved.
+    </footer>
+
+    <script>
+        function toggleDarkMode() {
+            document.body.classList.toggle('dark-mode');
+        }
+
+        ScrollReveal().reveal('section', {
+            delay: 100,
+            distance: '20px',
+            origin: 'bottom',
+            duration: 800,
+            easing: 'ease-in-out',
+            reset: false
+        });
+    </script>
+    <script>
+        particlesJS("particles-js", {
+            particles: {
+                number: { value: 60, density: { enable: true, value_area: 800 } },
+                color: { value: "#6366f1" }, // Indigo-like tone
+                shape: { type: "circle" },
+                opacity: { value: 0.2, random: true },
+                size: { value: 3, random: true },
+                line_linked: {
+                    enable: true,
+                    distance: 120,
+                    color: "#6366f1",
+                    opacity: 0.1,
+                    width: 1
+                },
+                move: {
+                    enable: true,
+                    speed: 2,
+                    direction: "none",
+                    random: false,
+                    out_mode: "out"
+                }
+            },
+            interactivity: {
+                detect_on: "canvas",
+                events: {
+                    onhover: { enable: true, mode: "grab" },
+                    onclick: { enable: false }
+                },
+                modes: {
+                    grab: { distance: 140, line_linked: { opacity: 0.25 } }
+                }
+            },
+            retina_detect: true
+        });
+    </script>
+
+</body>
+
+</html>
